@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <title>Subscribe to my fanpage</title>
+    <head> Enter your detail here to subsribe </head>
+    <p> Your details will be saved at most care. These details are not shared to any 3<sup>rd</sup> parties.</p>
+    <h1 style="font-size: 30;">Subsciption Details</h1>
+    <form action="./action.html" method="POST">
+        <label for="Email_id">Email id</label> 
+        <input type="text" name="email" id="Email_id" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]$">
+        <br>
+        <br>
+        <br>
+        <hr>
+        <label for="Gender">Your Gender</label>
+        <br>
+        <input type="radio" name="gender" id="Gender" value="Male">Male</input><br>
+        <input type="radio" name="gender" id="Gender" value="Female">Female</input><br>
+        <input type="radio" name="gender" id="Gender" value="Other">Other</input>
+        <br>
+        <br>
+        <hr>
+        <label for="Age">Age   </label>
+        <input type="number" name="age" id="Age" min="12" >
+        <br>
+        <br>
+        <br>
+        <hr>
+        <label for="education">Education</label>
+        <br>
+        <input type="text" name="education" id="education">
+        <br>
+        <br>
+        <br>
+        <hr>
+        <label for="occupation">What do you do </label>
+        <br>
+        <select name="occupation" id="occupation" >
+            <option value="Student">Student</option>
+            <option value="Teacher">Teacher</option>
+            <option value="Govt">Governament Employ</option>
+            <option value="Engineer">Enginnering</option>
+            <option value="Buisness">Private Buisness</option>
+            <option value="None">None</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <hr>
+        <p>Do you want us to mail daily updates :</p>
+        <br>
+        <input type="radio" name="notifications" id="notifications" value="yes">
+        <label for="notifications">yes   </label>
+        <br>
+        <input type="radio" name="notifications" id="notifications" value="no">
+        <label for="notifications">no</label>
+        <br>
+        <br>
+        <hr>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+
+    </form>
+
+</html>

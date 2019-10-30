@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+  </head>
+  <body>
+    <section class="overlay">
+			<h1>Sign Up</h1>
+      <p style="font-size: 30px; color:rgba(6, 96, 99, 0.24);">ENTER YOUR EMAIL TO SUBSCRIBE TO MY BLOG</p>
+      <form action="submission.html" method="GET">
+        <label for="username">Username:</label>
+        <br>
+				<!--Add the pattern attribute to the input below-->
+				<input id="username" name="username" type="text" required minlength="3"  pattern="[a-zA-Z0-9.]+@vitstudent.ac.in$" value>
+        <br>
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+  </body>
+</html>
